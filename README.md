@@ -6,6 +6,10 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 You almost never need to update `create-react-app` itself: it delegates all the setup to `react-scripts`.
 
+## Babel config
+
+Edit config-overrides.js to suit your needs.
+
 ## Available Scripts
 
 ### `npm start`
