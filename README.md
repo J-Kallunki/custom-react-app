@@ -6,6 +6,9 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 You almost never need to update `create-react-app` itself: it delegates all the setup to `react-scripts`.
 
+PS. Add this to your .bash_aliases or .bash_profile to be able to run locally installed npm executables with npm-do.
+`function npm-do { (PATH=$(npm bin):$PATH; eval $@;) }`
+
 ## Babel config
 
 Edit config-overrides.js to suit your needs.
