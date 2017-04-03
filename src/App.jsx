@@ -12,9 +12,9 @@ class App extends Component {
 }
 
 function DevNull() {
-	return (
-		<div className="app__content">These aren't the components you're looking for</div>
-	);
+  return (
+    <div className="app__content">These aren't the components you're looking for</div>
+  );
 }
 
 export default App;
